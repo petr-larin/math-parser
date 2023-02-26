@@ -46,7 +46,7 @@ err_code = mp.Parse(err_pos, 0);
 	// (expected binary sign or right parenthesis)
     
 err_code = mp.Parse(err_pos, 1);
-    // returns OK
+	// returns OK
 ```
 
 #### 2. Evaluate
