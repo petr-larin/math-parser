@@ -109,9 +109,9 @@ err_code = mp.Execute(err_pos, args2, value, 0);
 NOTE: By design, Parse treats unknown variable identifiers differently from Evaluate/Compile. Parse does not use inputs provided by CheckAndInsertVar, it only checks that an identifier is a valid one (containing letters, digits and underscores and not beginning with a digit). On the other hand, Evaluate/Compile will raise an UnknownIdentifier error when they have reached an identifier not registered with CheckAndInsertVar. Suppose the identifier "x1" has not been registered via CheckAndInsertVar:
 
 ```sh
-Input string	Method              Result
+Input string	Method              	Result
 --------------------------------------------------------------
-"x1"		    Parse               OK
+"x1"		Parse               	OK
 "x1"	    	Evaluate/Compile	UnknownIdentifier
 ```
 More info in mp.hpp.
