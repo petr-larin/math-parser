@@ -2,6 +2,8 @@
 
 MParser.exe is a Win32 demo app for the MathParser class. It can evaluate math expressions containing common math functions.
 
+![Screen shot](mparser_screen.jpg)
+
 To replace the English interface with the Russian one, link with mp_rus(16LE).rc.
 
 ### About the MathParser Class
